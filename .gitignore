@@ -1,0 +1,22 @@
+# Ignore node_modules folder
+nodejs/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore build artifacts
+build/
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore .vscode folder
+.vscode/
+
+node_modules/
