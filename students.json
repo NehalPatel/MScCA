@@ -1,0 +1,52 @@
+{
+    "data" : [
+        {
+            "id" : 1,
+            "name": "MS Dhoni",
+            "age" : 36,
+            "country":"India",
+            "email" : "msd@sdjic.org",
+            "mobile" : "9879879876"
+        },
+        {
+            "id" : 2,
+            "name": "Virat Kohli",
+            "age" : 30,
+            "country":"India",
+            "email" : "vk@sdjic.org",
+            "mobile" : "5454545454"
+        },
+        {
+            "id" : 3,
+            "name": "Sachin Tendulkar",
+            "age" : 40,
+            "country":"India",
+            "email" : "scht@sdjic.org",
+            "mobile" : "1234567890"
+        },
+        {
+            "id" : 4,
+            "name": "Ben Stokes",
+            "age" : 28,
+            "country":"England",
+            "email" : "ben@sdjic.org",
+            "mobile" : "1234567890"
+        },
+        {
+            "id" : 5,
+            "name": "Steve Smith",
+            "age" : 30,
+            "country":"Australia",
+            "email" : "steve@sdjic.org",
+            "mobile" : "1234567890"
+        },
+        {
+            "id" : 6,
+            "name": "David Warner",
+            "age" : 30,
+            "country":"Australia",
+            "email" : "dw@sdjic.org",
+            "mobile" : "1234567890"
+        }
+    ]
+}
