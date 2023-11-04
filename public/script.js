@@ -1,6 +1,6 @@
 var app = angular.module("myApp", []);
 
-app.controller('formCtrl', function ($scope) {
+app.controller('formCtrl', function ($scope, $http) {
     $scope.student_name = "Nehal Patel";
     $scope.student_email = "";
     $scope.student_address = "";
@@ -8,9 +8,6 @@ app.controller('formCtrl', function ($scope) {
 
 
     $scope.submitForm = function (e) {
-        console.log('stop here'); return false;
-        e.preventDefault();
-
         // Create an object with the form data
         var formData = {
             student_name: $scope.student_name,

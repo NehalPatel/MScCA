@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+app.post('/submit', (req, res) => {
+    console.log(req.body);
+});
+
 // Start the server
 const port = 3000;
 app.listen(port, () => {
