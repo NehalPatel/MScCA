@@ -1,6 +1,7 @@
 var app = angular.module("myApp", []);
 
 app.controller('formCtrl', function ($scope, $http) {
+
     $scope.student_name = "Nehal Patel";
     $scope.student_email = "";
     $scope.student_address = "";
@@ -31,4 +32,10 @@ app.controller('formCtrl', function ($scope, $http) {
 
         return false;
     };
+});
+
+app.controller('studentCtrl', function ($scope, $http) {
+    $http.get('students.json').then(function(response) {
+        $scope.students = response.data.data;
+    });
 });

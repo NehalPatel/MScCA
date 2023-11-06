@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="table-responsive">
-                        <table class="table table-responsive">
+                        <table class="table table-responsive" ng-controller="studentCtrl" >
                             <tr>
                                 <th>No.</th>
                                 <th>Name</th>
@@ -95,30 +95,15 @@
                                 <th>Address</th>
                                 <th>Phone</th>
                             </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Mahendrasingh Dhoni</td>
-                                <td>30</td>
-                                <td>msd@sdjic.org</td>
-                                <td>Ranchi</td>
-                                <td>987987987</td>
+                            <tr ng-repeat="student in students">
+                                <td>{{student.id}}</td>
+                                <td>{{student.name}}</td>
+                                <td>{{student.age}}</td>
+                                <td>{{student.country}}</td>
+                                <td>{{student.email}}</td>
+                                <td>{{student.mobile}}</td>
                             </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Virat Kohli</td>
-                                <td>30</td>
-                                <td>vk@sdjic.org</td>
-                                <td>Delhi</td>
-                                <td>9899546543</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Rohit Sharma</td>
-                                <td>30</td>
-                                <td>hitman@sdjic.org</td>
-                                <td>Mumbai</td>
-                                <td>999998798</td>
-                            </tr>
+                            
                         </table>
                     </div>
 
